@@ -16,8 +16,15 @@ my personal css and stuff
   margin: 0 auto;
 }
 
+.resume-heading {
+  text-align: left; /* Align left by default */
+}
 
-
+@media screen and (max-width: 767px) {
+  .resume-heading {
+    text-align: center; /* Center align for mobile view */
+  }
+}
 
 
 
